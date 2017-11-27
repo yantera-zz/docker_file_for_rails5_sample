@@ -11,3 +11,4 @@ ADD . /rails_sample
 RUN mkdir sample
 WORKDIR sample
 RUN rails new .
+RUN source ~/.bashrc
